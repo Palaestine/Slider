@@ -1,0 +1,48 @@
+.item{
+    margin-bottom: 30px;
+    height: 430px;
+    cursor: pointer;
+    
+}
+.item img{
+    height: 100%;
+    border-radius: 20px ;
+}
+.item-info {
+    bottom: 15px;
+    width: 80%;
+    left: 10%;
+    background-color: #fff; 
+    border-radius: 10px ;
+}
+#hide-box{
+    background-color: rgba(128, 128, 128, 0.329);
+    position:fixed;
+    inset: 0;
+    z-index: 9999;
+    display: none;
+}
+.hide-img{
+    width: 50%;
+    height: 700px;
+    background-image: url(../imgs/home1.png);
+    background-position:  center;
+    background-size: cover;
+    transition: all .5s;
+    border-radius: 20px ;
+}
+#close{
+    top: 20px;
+    right: 30px;
+}
+.hide-img i{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media (max-width : 767px ) {
+    .hide-img{
+        width: 90%;
+    }
+    
+}
